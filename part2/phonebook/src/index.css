@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin-left: 20px;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: blue;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 350px;
+}
+
+.message-main {
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.message {
+  color: green;
+}
