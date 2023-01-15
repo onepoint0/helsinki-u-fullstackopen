@@ -3,8 +3,11 @@
   font-family: sans-serif;
 }
 
-body {
-  margin-left: 20px;
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -15,8 +18,17 @@ h2 {
   color: blue;
 }
 
+.phonebook {
+  max-width: 550px;
+  width: 90%;
+}
+
 form div {
   margin-bottom: 10px;
+}
+
+ul {
+  padding: 0;
 }
 
 li {
@@ -24,7 +36,6 @@ li {
   font-size: 15px;
   display: flex;
   justify-content: space-between;
-  max-width: 350px;
 }
 
 .message-main {

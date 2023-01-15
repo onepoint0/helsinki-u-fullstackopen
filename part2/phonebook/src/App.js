@@ -77,7 +77,6 @@ const App = () => {
       setPersons(persons.filter( p => p.id !== id )) // this is gonna happen regardless so put it outside personService.deletePerson
     }
   }
- 
 
   const personsToShow = 
     filterName.length > 0 
@@ -85,7 +84,7 @@ const App = () => {
       : persons;
 
   return (
-    <div>
+    <div className='phonebook'>
       <h2>Phonebook</h2>
    
       <Filter filterName={filterName} setFilterName={setFilterName}/>
